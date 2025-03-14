@@ -19,7 +19,7 @@ Link to Github Sample: (https://github.com/Beckhoff/twincatbsd-tools/tree/master
    
 ### 5. Change Repository configuration file by Tc/Bsd Target
    Path: /etc/pkg/TCBSD.conf
-> [!COMMAND]
+> [!TIP]
 > doas ee /etc/pkg/TCBSD.conf
    
    
