@@ -668,3 +668,4 @@ liveview_*
 **/.hmipkgs/
 **/*.d.ts
 **/*.js.map
+/TwinCatBsdRepositoryServerConsole/Properties/launchSettings.json
