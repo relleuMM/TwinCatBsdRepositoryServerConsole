@@ -1,20 +1,26 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.34601.136
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwinCatBsdRepositoryServerConsole", "TwinCatBsdRepositoryServerConsole\TwinCatBsdRepositoryServerConsole.csproj", "{B7A56738-86EE-4998-81BC-D20EBFB24412}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B7A56738-86EE-4998-81BC-D20EBFB24412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B7A56738-86EE-4998-81BC-D20EBFB24412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7A56738-86EE-4998-81BC-D20EBFB24412}.Debug|x64.ActiveCfg = Debug|x64
+		{B7A56738-86EE-4998-81BC-D20EBFB24412}.Debug|x64.Build.0 = Debug|x64
 		{B7A56738-86EE-4998-81BC-D20EBFB24412}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7A56738-86EE-4998-81BC-D20EBFB24412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7A56738-86EE-4998-81BC-D20EBFB24412}.Release|x64.ActiveCfg = Release|x64
+		{B7A56738-86EE-4998-81BC-D20EBFB24412}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

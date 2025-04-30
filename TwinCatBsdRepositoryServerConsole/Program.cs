@@ -12,10 +12,14 @@ Console.ForegroundColor = ConsoleColor.Yellow;
 Console.WriteLine("Init");
 
 string rootDirectory = @"C:\tcbsd\repository\packages";
-string PathDirectroy = System.IO.Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+
+string PathDirectroy = AppContext.BaseDirectory;
 Console.WriteLine("Path Directory: " +PathDirectroy);
-rootDirectory = PathDirectroy+ @"\LocalRepository\";
+
+rootDirectory = PathDirectroy+ @"LocalRepository\";
+
 Console.WriteLine("Path Local Repository: " + rootDirectory);
+
 string webServerUrl = "http://*:";
 WebServer webServerData = new WebServer(0);
 #endregion
